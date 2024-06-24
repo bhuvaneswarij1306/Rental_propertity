@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#slider {&#13;
+	overflow: hidden;&#13;
+  margin-bottom: -100px;&#13;
+}&#13;
+&#13;
+@keyframes slider {&#13;
+	0% { left: 0; }&#13;
+	30% { left: 0; }&#13;
+	33% { left: -100%; }&#13;
+	63% { left: -100%; }&#13;
+	66% { left: -200%; }&#13;
+	95% { left: -200%; }&#13;
+	100% { left: 0; }&#13;
+}&#13;
+#slider figure {&#13;
+	width:300%;&#13;
+	position: relative;&#13;
+	animation: 9s slider infinite;&#13;
+}&#13;
+&#13;
+#slider figure:hover {&#13;
+	/*animation-play-state: paused; enable for pause on hover*/&#13;
+}&#13;
+#slider figure img {&#13;
+	width: 33.333333333%;&#13;
+	height : 100%;&#13;
+	float: left;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>slideshow</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>slideshow</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 12:46:10</sys_created_on>
+        <sys_id>076dee3a93eec210ee61f5befaba1060</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>slideshow</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sp_widget_076dee3a93eec210ee61f5befaba1060</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 13:06:07</sys_updated_on>
+        <template><![CDATA[<div id="slider">
+					  <figure>
+						    <img src="https://www.bankrate.com/2019/08/23131509/10-tips-for-buying-rental-property.jpeg?auto=webp&optimize=high&crop=16:9">
+						    <img src="https://e1.pxfuel.com/desktop-wallpaper/113/683/desktop-wallpaper-inside-the-most-expensive-rental-property-in-us-billionaire-mansions.jpg">
+						    <img src="https://img.freepik.com/free-vector/family-moving-countryside-area-realtor-shows-townhouse-house-rent-booking-hose-online-best-rental-property-real-estate-services-concept-bright-vibrant-violet-isolated-illustration_335657-1129.jpg">
+					  </figure>
+				</div>]]></template>
+    </sp_widget>
+</record_update>

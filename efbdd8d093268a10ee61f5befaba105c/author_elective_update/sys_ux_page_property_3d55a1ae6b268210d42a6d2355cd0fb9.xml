@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Header Configuration</description>
+        <name>chrome_header</name>
+        <page display_value="Rental Properties System">7d55a1ae85268210a5de3ced14c6e1ca</page>
+        <required_translations>[ {
+  "message" : "Configure workspace",
+  "comment" : ""
+}, {
+  "message" : "Display Preferences",
+  "comment" : ""
+}, {
+  "message" : "Notifications",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "Show Badge Count",
+  "comment" : ""
+}, {
+  "message" : "Show Banners",
+  "comment" : ""
+}, {
+  "message" : "Show ribbon",
+  "comment" : ""
+}, {
+  "message" : "Show sidebar",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+}, {
+  "message" : "Wrap list text",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 12:52:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>3d55a1ae6b268210d42a6d2355cd0fb9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sys_ux_page_property_3d55a1ae6b268210d42a6d2355cd0fb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 04:39:26</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1346722_rental_0.7d55a1ae85268210a5de3ced14c6e1ca.root.chrome_header</unique_name>
+        <value>{"privatePage":{"notificationsEnabled":true,"searchEnabled":true,"userPrefsEnabled":true,"contextualConfigurationItems":{"_roles":["workspace_admin"],"enabled":true,"position":150},"globalTools":{"collapsingMenuId":0,"primaryItems":[{"label":"UserMenu","icon":"user","type":"menu","primaryDisplay":"icon","value":{"children":[{"_roles":["workspace_admin"],"label":{"message":"Configure workspace","translatable":true},"type":"navigation","position":100,"primaryDisplay":"none","value":{"type":"external","opensWindow":"true","value":{"href":"/nav_to.do?uri=/sys_ux_app_config.do?sys_id=3155a1ae012682104e7d58f427af49cb"}}},{"label":{"message":"Settings","translatable":true},"type":"menu","position":50,"value":{"children":[{"label":{"message":"Display Preferences","translatable":true},"type":"divider"},{"label":{"message":"Show ribbon","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.showRibbon"},"_default":{"userPrefName":"true"}}}},{"label":{"message":"Show sidebar","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.showAgentAssist"},"_default":{"userPrefName":"true"}}}},{"label":{"message":"Wrap list text","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.wrapListText"},"_default":{"userPrefName":"true"}}}},{"label":{"message":"Notifications","translatable":true},"type":"divider"},{"label":{"message":"Show Banners","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.notifications.showPopups"},"_default":{"userPrefName":"true"}}}},{"label":{"message":"Show Badge Count","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.notifications.showBadgeCount"},"_default":{"userPrefName":"true"}}}}]}}]}}],"secondaryItems":[]}},"publicPage":{"actionButtons":[],"searchEnabled":false}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=3d55a1ae6b268210d42a6d2355cd0fb9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sys_ux_page_property_3d55a1ae6b268210d42a6d2355cd0fb9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Header Configuration</description><name>chrome_header</name><page display_value="Rental Properties System">7d55a1ae85268210a5de3ced14c6e1ca</page><required_translations>[ {
+  "message" : "Configure workspace",
+  "comment" : ""
+}, {
+  "message" : "Display Preferences",
+  "comment" : ""
+}, {
+  "message" : "Notifications",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "Show Badge Count",
+  "comment" : ""
+}, {
+  "message" : "Show Banners",
+  "comment" : ""
+}, {
+  "message" : "Show ribbon",
+  "comment" : ""
+}, {
+  "message" : "Show sidebar",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+}, {
+  "message" : "Wrap list text",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-05 12:52:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>3d55a1ae6b268210d42a6d2355cd0fb9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope><sys_update_name>sys_ux_page_property_3d55a1ae6b268210d42a6d2355cd0fb9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-07 04:39:26</sys_updated_on><type>json</type><unique_name>x_1346722_rental_0.7d55a1ae85268210a5de3ced14c6e1ca.root.chrome_header</unique_name><value>{"privatePage":{"notificationsEnabled":true,"searchEnabled":true,"userPrefsEnabled":true,"contextualConfigurationItems":{"_roles":["workspace_admin"],"enabled":true,"position":150},"globalTools":{"collapsingMenuId":0,"primaryItems":[{"label":"UserMenu","icon":"user","type":"menu","primaryDisplay":"icon","value":{"children":[{"_roles":["workspace_admin"],"label":{"message":"Configure workspace","translatable":true},"type":"navigation","position":100,"primaryDisplay":"none","value":{"type":"external","opensWindow":"true","value":{"href":"/nav_to.do?uri=/sys_ux_app_config.do?sys_id=3155a1ae012682104e7d58f427af49cb"}}},{"label":{"message":"Settings","translatable":true},"type":"menu","position":50,"value":{"children":[{"label":{"message":"Display Preferences","translatable":true},"type":"divider"},{"label":{"message":"Show ribbon","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.showRibbon"},"_default":{"userPrefName":"true"}}}},{"label":{"message":"Show sidebar","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.showAgentAssist"},"_default":{"userPrefName":"true"}}}},{"label":{"message":"Wrap list text","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.wrapListText"},"_default":{"userPrefName":"true"}}}},{"label":{"message":"Notifications","translatable":true},"type":"divider"},{"label":{"message":"Show Banners","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.notifications.showPopups"},"_default":{"userPrefName":"true"}}}},{"label":{"message":"Show Badge Count","translatable":true},"type":"toggle","value":{"_meta":{"_type":"userPreferences","_path":"userPrefName","_value":{"userPrefName":"workspace.notifications.showBadgeCount"},"_default":{"userPrefName":"true"}}}}]}}]}}],"secondaryItems":[]}},"publicPage":{"actionButtons":[],"searchEnabled":false}}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=3d55a1ae6b268210d42a6d2355cd0fb9"/></record_update>]]></payload>
+        <payload_hash>-1718392696</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>67bdd8d093268a10ee61f5befaba10ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 04:39:26</sys_created_on>
+        <sys_id>2eb74e0393624610ee61f5befaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ff0fe918d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 04:39:26</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>62b74e035062461062b32aa412f8c55c</update_guid>
+        <update_guid_history>62b74e035062461062b32aa412f8c55c:-1718392696,1f5565aef0268210a3e50c68f359843d:695630040,175565ae9426821091905047573c273c:578488378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 07:07:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>2141245cce8f453d8b76485d70c426c9</sys_id>
+        <sys_metadata>3d55a1ae6b268210d42a6d2355cd0fb9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_scope_delete display_value="">952bc903b9344e008c9412082a8ae100</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_3d55a1ae6b268210d42a6d2355cd0fb9</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_3d55a1ae6b268210d42a6d2355cd0fb9">2eb74e0393624610ee61f5befaba105c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 07:07:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

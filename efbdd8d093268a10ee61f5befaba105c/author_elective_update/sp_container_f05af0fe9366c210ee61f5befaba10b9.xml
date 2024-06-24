@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>padding-top-lg</class_name>
+        <container_class_name/>
+        <name>Homepage - Container 4</name>
+        <order>4</order>
+        <semantic_tag/>
+        <sp_page display_value="copy_of_index_1">205abcbe9366c210ee61f5befaba1037</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 04:22:47</sys_created_on>
+        <sys_id>f05af0fe9366c210ee61f5befaba10b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Homepage - Container 4</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sp_container_f05af0fe9366c210ee61f5befaba10b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 04:26:59</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sp_container_f05af0fe9366c210ee61f5befaba10b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>padding-top-lg</class_name><container_class_name/><name>Homepage - Container 4</name><order>4</order><semantic_tag/><sp_page display_value="copy_of_index_1">205abcbe9366c210ee61f5befaba1037</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-06 04:22:47</sys_created_on><sys_id>f05af0fe9366c210ee61f5befaba10b9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Homepage - Container 4</sys_name><sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope><sys_update_name>sp_container_f05af0fe9366c210ee61f5befaba10b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-06 04:26:59</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-722645160</payload_hash>
+        <record_name>Homepage - Container 4</record_name>
+        <reverted_from/>
+        <source>67bdd8d093268a10ee61f5befaba10ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 04:26:59</sys_created_on>
+        <sys_id>ea4b38be9366c210ee61f5befaba10c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18febccd19d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 04:26:59</sys_updated_on>
+        <type>Container</type>
+        <update_guid>624b38bea466c2108838210dba9d9ec1</update_guid>
+        <update_guid_history>624b38bea466c2108838210dba9d9ec1:-722645160,385af0fec066c21083df03370be9eaba:-370458628</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Homepage - Container 4">7f32897a93a6c210ee61f5befaba1040</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 04:57:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1071aa61aeab4e0283faed471eb4abc4</sys_id>
+        <sys_metadata>f05af0fe9366c210ee61f5befaba10b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Homepage - Container 4</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_scope_delete display_value="">952bc903b9344e008c9412082a8ae100</sys_scope_delete>
+        <sys_update_name>sp_container_f05af0fe9366c210ee61f5befaba10b9</sys_update_name>
+        <sys_update_version display_value="sp_container_f05af0fe9366c210ee61f5befaba10b9">ea4b38be9366c210ee61f5befaba10c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 04:57:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

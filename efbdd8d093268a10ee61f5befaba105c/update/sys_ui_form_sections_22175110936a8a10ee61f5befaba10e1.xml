@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="22175110936a8a10ee61f5befaba10e1" sys_domain="global" table="x_1346722_rental_0_owner_information" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 12:03:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa179110936a8a10ee61f5befaba1048</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">96de949493e28a10ee61f5befaba1026</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 12:03:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 12:03:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a179110936a8a10ee61f5befaba1049</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="Rental Details" display_value="Rental Details" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">aa175110936a8a10ee61f5befaba10de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 12:03:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 12:03:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a179110936a8a10ee61f5befaba104d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">a6175110936a8a10ee61f5befaba10e0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 12:03:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 13:29:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27aa655893aa8a10ee61f5befaba10a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="Properties Details" display_value="Properties Details" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">2faa655893aa8a10ee61f5befaba109e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 13:29:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 13:29:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77aa655893aa8a10ee61f5befaba10a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">a7aa655893aa8a10ee61f5befaba10a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 13:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 13:29:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73aa655893aa8a10ee61f5befaba10ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="Parking" display_value="Parking" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">e3aa655893aa8a10ee61f5befaba10a1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 13:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 13:29:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbaa655893aa8a10ee61f5befaba10be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">23aa655893aa8a10ee61f5befaba10a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 13:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 13:29:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfaa655893aa8a10ee61f5befaba10cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">6faa655893aa8a10ee61f5befaba10a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 13:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 10:41:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7778d2693a28210ee61f5befaba1058</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_rental_0_owner_information" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">22175110936a8a10ee61f5befaba10e1</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_1346722_rental_0_owner_information" sys_domain="global" view="Default view">a7774d2693a28210ee61f5befaba108c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 10:41:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1346722_rental_0_owner_information</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 12:03:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22175110936a8a10ee61f5befaba10e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1346722_rental_0_owner_information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_22175110936a8a10ee61f5befaba10e1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 12:03:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

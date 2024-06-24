@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>OI: Onload Readonly</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var status = g_form.getValue('status');
+    var state = g_form.getValue('state');
+    var isNew = g_form.isNewRecord();
+    var user = g_user.userID;
+    var owner = g_form.getValue('added_by');
+    // alert(isNew +'  |  '+ user);
+    if ((status == 1 && state == 7 && user == owner) || isNew) {
+        g_form.setReadOnly("name", false);
+        g_form.setReadOnly("home_address", false);
+        g_form.setReadOnly("mobile_number", false);
+        g_form.setReadOnly("email", false);
+        g_form.setReadOnly("property_address", false);
+        g_form.setReadOnly("last_time_property_professionally_inspected", false);
+        g_form.setReadOnly("last_repairs", false);
+        g_form.setReadOnly("currently_occupied", false);
+        g_form.setReadOnly("tenant_name", false);
+        g_form.setReadOnly("tenant_mobile_number", false);
+        g_form.setReadOnly("is_the_tenant_on_the_lease", false);
+        g_form.setReadOnly("length_of_tenancy", false);
+        g_form.setReadOnly("length_of_lease", false);
+        g_form.setReadOnly("moving_out", false);
+        g_form.setReadOnly("when", false);
+        g_form.setReadOnly("current_management_company", false);
+        g_form.setReadOnly("management_company_contract_expiration", false);
+        g_form.setReadOnly("rent_amount", false);
+        g_form.setReadOnly("how_many_rooms_are_there", false);
+        g_form.setReadOnly("how_many_rooms_are_suite", false);
+        g_form.setReadOnly("how_many_washrooms_are_there", false);
+        g_form.setReadOnly("a_c", false);
+        g_form.setReadOnly("stove_gas_electric", false);
+        g_form.setReadOnly("oven_gas_electric", false);
+        g_form.setReadOnly("dishwasher", false);
+        g_form.setReadOnly("microwave", false);
+        g_form.setReadOnly("trash_compactor", false);
+        g_form.setReadOnly("washer", false);
+        g_form.setReadOnly("dryer", false);
+        g_form.setReadOnly("alarm", false);
+        g_form.setReadOnly("other", false);
+        g_form.setReadOnly("parking_available", false);
+        g_form.setReadOnly("gated", false);
+        g_form.setReadOnly("sprinklers", false);
+        g_form.setReadOnly("garderner", false);
+        g_form.setReadOnly("trash_day", false);
+        g_form.setReadOnly("pool", false);
+        g_form.setReadOnly("insect_pest_control", false);
+        g_form.setReadOnly("others", false);
+        g_form.setReadOnly("complex_pool", false);
+        g_form.setReadOnly("spa", false);
+        g_form.setReadOnly("laundry", false);
+        g_form.setReadOnly("rec_room", false);
+        g_form.setReadOnly("playground", false);
+        g_form.setReadOnly("exercise_room", false);
+        g_form.setReadOnly("tennis_court", false);
+        g_form.setReadOnly("volleyball", false);
+        g_form.setReadOnly("steam_room", false);
+        g_form.setReadOnly("other_amenities", false);
+        // alert('ss');
+
+    } else {
+        g_form.setReadOnly("name", true);
+        g_form.setReadOnly("home_address", true);
+        g_form.setReadOnly("mobile_number", true);
+        g_form.setReadOnly("email", true);
+        g_form.setReadOnly("property_address", true);
+        g_form.setReadOnly("last_time_property_professionally_inspected", true);
+        g_form.setReadOnly("last_repairs", true);
+        g_form.setReadOnly("currently_occupied", true);
+        g_form.setReadOnly("tenant_name", true);
+        g_form.setReadOnly("tenant_mobile_number", true);
+        g_form.setReadOnly("is_the_tenant_on_the_lease", true);
+        g_form.setReadOnly("length_of_tenancy", true);
+        g_form.setReadOnly("length_of_lease", true);
+        g_form.setReadOnly("moving_out", true);
+        g_form.setReadOnly("when", true);
+        g_form.setReadOnly("current_management_company", true);
+        g_form.setReadOnly("management_company_contract_expiration", true);
+        g_form.setReadOnly("rent_amount", true);
+        g_form.setReadOnly("how_many_rooms_are_there", true);
+        g_form.setReadOnly("how_many_rooms_are_suite", true);
+        g_form.setReadOnly("how_many_washrooms_are_there", true);
+        g_form.setReadOnly("a_c", true);
+        g_form.setReadOnly("stove_gas_electric", true);
+        g_form.setReadOnly("oven_gas_electric", true);
+        g_form.setReadOnly("dishwasher", true);
+        g_form.setReadOnly("microwave", true);
+        g_form.setReadOnly("trash_compactor", true);
+        g_form.setReadOnly("washer", true);
+        g_form.setReadOnly("dryer", true);
+        g_form.setReadOnly("alarm", true);
+        g_form.setReadOnly("other", true);
+        g_form.setReadOnly("parking_available", true);
+        g_form.setReadOnly("gated", true);
+        g_form.setReadOnly("sprinklers", true);
+        g_form.setReadOnly("garderner", true);
+        g_form.setReadOnly("trash_day", true);
+        g_form.setReadOnly("pool", true);
+        g_form.setReadOnly("insect_pest_control", true);
+        g_form.setReadOnly("others", true);
+        g_form.setReadOnly("complex_pool", true);
+        g_form.setReadOnly("spa", true);
+        g_form.setReadOnly("laundry", true);
+        g_form.setReadOnly("rec_room", true);
+        g_form.setReadOnly("playground", true);
+        g_form.setReadOnly("exercise_room", true);
+        g_form.setReadOnly("tennis_court", true);
+        g_form.setReadOnly("volleyball", true);
+        g_form.setReadOnly("steam_room", true);
+        g_form.setReadOnly("other_amenities", true);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 05:19:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0bfc6cb93624610ee61f5befaba108c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OI: Onload Readonly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sys_script_client_e0bfc6cb93624610ee61f5befaba108c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 05:47:30</sys_updated_on>
+        <table>x_1346722_rental_0_owner_information</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

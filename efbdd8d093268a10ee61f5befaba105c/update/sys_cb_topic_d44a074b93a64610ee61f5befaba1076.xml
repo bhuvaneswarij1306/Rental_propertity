@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.65",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "87eee87cb4ca455986a30dfc17bc5288": {
+          "id": "87eee87cb4ca455986a30dfc17bc5288",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "53b54d0e30fb4681a88311f687fe8f6a": {
+          "id": "53b54d0e30fb4681a88311f687fe8f6a",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c9301a733f95426abff8c170fbe79d1b": {
+          "id": "c9301a733f95426abff8c170fbe79d1b",
+          "stepType": "TextOutput",
+          "name": "Welcome Note",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Hello There!!!"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Welcome to Rental Properties System Application.  Please Enter your Property Number to check it's status"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "11499735c49e45a8876ad6056cfd587a"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "66d005bd9b0943aca2b638a77c467620": {
+          "id": "66d005bd9b0943aca2b638a77c467620",
+          "stepType": "TextPrompt",
+          "name": "Number Input",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter Property Number"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "1d976e55d90142c4a7b1868d59e3e06a",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "de59a57b1b6242f38489b918d094a03f": {
+          "id": "de59a57b1b6242f38489b918d094a03f",
+          "stepType": "LookupRecord",
+          "name": "lookup record",
+          "condition": {
+            "mode": "glide_query",
+            "value": "number={{vaInputs.number_input}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "244634dc4ab84309b6433e5b2c1f02ac"
+        },
+        "a43068a89d764d5f97b79c387c908fbc": {
+          "id": "a43068a89d764d5f97b79c387c908fbc",
+          "stepType": "RecordOutput",
+          "name": "output",
+          "variableId": "244634dc4ab84309b6433e5b2c1f02ac",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1346722_rental_0_owner_information",
+          "fields": [
+            "number",
+            "status",
+            "sys_created_by"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "c4fa970e567b41f1b4dcfb978a6d8872",
+          "edgeType": "Edge",
+          "source": "87eee87cb4ca455986a30dfc17bc5288",
+          "target": "c9301a733f95426abff8c170fbe79d1b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ea0f766602904bd48c78254c919983e5",
+          "edgeType": "Edge",
+          "source": "c9301a733f95426abff8c170fbe79d1b",
+          "target": "66d005bd9b0943aca2b638a77c467620",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b9de531719664b50b5843310b5e7e85a",
+          "edgeType": "Edge",
+          "source": "66d005bd9b0943aca2b638a77c467620",
+          "target": "de59a57b1b6242f38489b918d094a03f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c65ae5f178f848caa63d8735b06b566a",
+          "edgeType": "Edge",
+          "source": "de59a57b1b6242f38489b918d094a03f",
+          "target": "a43068a89d764d5f97b79c387c908fbc",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5082ce96209140ab807a4c64332263e3",
+          "edgeType": "Edge",
+          "source": "a43068a89d764d5f97b79c387c908fbc",
+          "target": "53b54d0e30fb4681a88311f687fe8f6a",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "1d976e55d90142c4a7b1868d59e3e06a": {
+      "id": "1d976e55d90142c4a7b1868d59e3e06a",
+      "name": "number_input",
+      "label": "Number Input",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcxNzc1MzQ3NjA2NSBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "66d005bd9b0943aca2b638a77c467620",
+      "isHidden": false
+    },
+    "244634dc4ab84309b6433e5b2c1f02ac": {
+      "id": "244634dc4ab84309b6433e5b2c1f02ac",
+      "name": "lookup_record",
+      "label": "Lookup Record",
+      "varType": "reference",
+      "table": "x_1346722_rental_0_owner_information",
+      "category": "vaInputs",
+      "nodeId": "a43068a89d764d5f97b79c387c908fbc",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Check Status</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Check Status</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 09:30:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d44a074b93a64610ee61f5befaba1076</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Check Status</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sys_cb_topic_d44a074b93a64610ee61f5befaba1076</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 09:53:37</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=d44a074b93a64610ee61f5befaba1076"/>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>number,name,property_address,status</field_list>
+        <filter/>
+        <glyph>th-list</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bd42c97a93a6c210ee61f5befaba10c5</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 04:57:51</sys_created_on>
+        <sys_id>e65209f693a6c210ee61f5befaba102c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sp_instance_table_e65209f693a6c210ee61f5befaba102c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 03:49:10</sys_updated_on>
+        <table>x_1346722_rental_0_owner_information</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=e65209f693a6c210ee61f5befaba102c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sp_instance_table_e65209f693a6c210ee61f5befaba102c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>number,name,property_address,status</field_list><filter/><glyph>th-list</glyph><id/><maximum_entries>10</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">bd42c97a93a6c210ee61f5befaba10c5</sp_column><sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-06 04:57:51</sys_created_on><sys_id>e65209f693a6c210ee61f5befaba102c</sys_id><sys_mod_count>4</sys_mod_count><sys_name/><sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope><sys_update_name>sp_instance_table_e65209f693a6c210ee61f5befaba102c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-10 03:49:10</sys_updated_on><table>x_1346722_rental_0_owner_information</table><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=e65209f693a6c210ee61f5befaba102c"/></record_update>]]></payload>
+        <payload_hash>1133621919</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>67bdd8d093268a10ee61f5befaba10ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 03:49:10</sys_created_on>
+        <sys_id>aff815c493320210ee61f5befaba10ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1900043a2d20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 03:49:10</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>67f815c48b32021094c8a822dc1f20ea</update_guid>
+        <update_guid_history>67f815c48b32021094c8a822dc1f20ea:1133621919,e2f851c461320210f115d0104fb67d3d:476609136,8c034d7a6ba6c210ed34774ffb567048:1133621919,f2e2c5b229a6c210916c9ea6bc76e2ae:-867383271,665209f631a6c2103578bb33ea778c2e:1579938480</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">244b1830937ac210ee61f5befaba1015</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 07:14:53</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>26df82793f2c469491e8b852aa723e90</sys_id>
+        <sys_metadata>e65209f693a6c210ee61f5befaba102c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_scope_delete display_value="">952bc903b9344e008c9412082a8ae100</sys_scope_delete>
+        <sys_update_name>sp_instance_table_e65209f693a6c210ee61f5befaba102c</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_e65209f693a6c210ee61f5befaba102c">aff815c493320210ee61f5befaba10ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 07:14:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="Owner Information Table">9c65e5ae93268210ee61f5befaba1027</datasource>
+        <field>name</field>
+        <source>x_1346722_rental_0_owner_information</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-05 12:52:24</sys_created_on>
+        <sys_id>5065e5ae93268210ee61f5befaba104c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1346722_rental_0_owner_information.name</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_5065e5ae93268210ee61f5befaba104c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-05 12:52:24</sys_updated_on>
+        <value>text</value>
+    </ais_datasource_field_attribute>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Status Submitted</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   g_form.setValue('status','submitted');
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 07:06:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c2cc38a93e20210ee61f5befaba1071</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Status Submitted</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sys_script_client_6c2cc38a93e20210ee61f5befaba1071</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 07:19:31</sys_updated_on>
+        <table>x_1346722_rental_0_owner_information</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sys_script_client_6c2cc38a93e20210ee61f5befaba1071</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set Status Submitted&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   g_form.setValue('status','submitted');
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-04 07:06:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6c2cc38a93e20210ee61f5befaba1071&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Status Submitted&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Rental Properties System" source="x_1346722_rental_0"&gt;efbdd8d093268a10ee61f5befaba105c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rental Properties System"&gt;efbdd8d093268a10ee61f5befaba105c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_6c2cc38a93e20210ee61f5befaba1071&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-04 07:19:31&lt;/sys_updated_on&gt;&lt;table&gt;x_1346722_rental_0_owner_information&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-274531987</payload_hash>
+        <record_name>Set Status Submitted</record_name>
+        <reverted_from/>
+        <source>67bdd8d093268a10ee61f5befaba10ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 07:19:31</sys_created_on>
+        <sys_id>9a9fcb8e93e20210ee61f5befaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fe21e0d520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 07:19:31</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>de9fcb8e2ee20210065e15266b82ee9a</update_guid>
+        <update_guid_history>de9fcb8e2ee20210065e15266b82ee9a:-274531987,388c0306e5e20210ce77434333baebc5:-296948933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 07:38:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>01c5227fe4fd41a38020b9f38ea72b11</sys_id>
+        <sys_metadata>6c2cc38a93e20210ee61f5befaba1071</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Status Submitted</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_parent display_value="Owner Information">f5de905493268a10ee61f5befaba10d9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_scope_delete display_value="">952bc903b9344e008c9412082a8ae100</sys_scope_delete>
+        <sys_update_name>sys_script_client_6c2cc38a93e20210ee61f5befaba1071</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6c2cc38a93e20210ee61f5befaba1071">9a9fcb8e93e20210ee61f5befaba109b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 07:38:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8460ed2c93e20210ee61f5befaba10b8" extends="task" label="Inspect Task" max_length="40" name="x_1346722_rental_0_inspect_task" text_index="true" type="collection">
+        <element label="Stairs, steps, and railings - good condition" max_length="40" name="stairs_steps_and_railings_good_condition" type="boolean"/>
+        <element label="No strange smell or noise" max_length="40" name="no_strange_smell_or_noise" type="boolean"/>
+        <element label="Gutters free from decay and rust" max_length="40" name="gutters_free_from_decay_and_rust" type="boolean"/>
+        <element label="All appliances in good condition" max_length="40" name="all_appliances_in_good_condition" type="boolean"/>
+        <element label="Owner Information" max_length="32" name="owner_information" read_only="true" reference="x_1346722_rental_0_owner_information" type="reference"/>
+        <element label="Water flow on all taps in good condition" max_length="40" name="water_flow_on_all_taps_in_good_condition" type="boolean"/>
+        <element label="Fireplace &amp; chimney are functional" max_length="40" name="fireplace_chimney_are_functional" type="string"/>
+        <element label="Paint in good condition on all locations" max_length="40" name="paint_in_good_condition_on_all_locations" type="boolean"/>
+        <element label="All heating sources operational" max_length="40" name="all_heating_sources_operational" type="boolean"/>
+        <element label="Doors in good condition and latch" max_length="40" name="doors_in_good_condition_and_latch" type="boolean"/>
+        <element label="Evidence of excess roofing cement" max_length="40" name="evidence_of_excess_roofing_cement" type="boolean"/>
+        <element label="Cracks (Basis of walls &amp; ceilings)" max_length="40" name="cracks_basis_of_walls_ceilings" type="boolean"/>
+        <element label="Bathroom &amp; kitchen tiles  in good condition" max_length="40" name="bathroom_kitchen_tiles_in_good_condition" type="boolean"/>
+        <element label="Toilets and sinks work properly" max_length="40" name="toilets_and_sinks_work_properly" type="boolean"/>
+        <element label="No evidence of past leans or mold" max_length="40" name="no_evidence_of_past_leans_or_mold" type="boolean"/>
+        <element label="No sign of mice or other rodents" max_length="40" name="no_sign_of_mice_or_other_rodents" type="boolean"/>
+        <element label="Windows in good condition and latch" max_length="40" name="windows_in_good_condition_and_latch" type="boolean"/>
+        <element label="Foundation appears straight" max_length="40" name="foundation_appears_straight" type="boolean"/>
+        <element label="No leaks around tubs/showers" max_length="40" name="no_leaks_around_tubs_showers" type="boolean"/>
+        <element label="Light switches, panels &amp; outlets" max_length="40" name="light_switches_panels_outlets" type="boolean"/>
+    </element>
+</database>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>child</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <short_description>Contact support to make a request, or report a problem</short_description>
+        <size>md</size>
+        <sp_column display_value="1">345af0fe9366c210ee61f5befaba109c</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 04:22:47</sys_created_on>
+        <sys_id>385af0fe9366c210ee61f5befaba10b6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Create New Request</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sp_instance_link_385af0fe9366c210ee61f5befaba10b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 03:48:18</sys_updated_on>
+        <title>Create New Request</title>
+        <type>url</type>
+        <url>https://dev208512.service-now.com/abr?id=form&amp;table=x_1346722_rental_0_owner_information</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=385af0fe9366c210ee61f5befaba10b6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sp_instance_link_385af0fe9366c210ee61f5befaba10b6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;child&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category display_value="Can We Help You?"&gt;e15706fc0a0a0aa7007fc21e1ab70c2f&lt;/sc_category&gt;&lt;short_description&gt;Contact support to make a request, or report a problem&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;345af0fe9366c210ee61f5befaba109c&lt;/sp_column&gt;&lt;sp_page display_value="form"&gt;ed5f8ec347730200ba13a5554ee49046&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-06 04:22:47&lt;/sys_created_on&gt;&lt;sys_id&gt;385af0fe9366c210ee61f5befaba10b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create New Request&lt;/sys_name&gt;&lt;sys_package display_value="Rental Properties System" source="x_1346722_rental_0"&gt;efbdd8d093268a10ee61f5befaba105c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rental Properties System"&gt;efbdd8d093268a10ee61f5befaba105c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_385af0fe9366c210ee61f5befaba10b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-10 03:48:18&lt;/sys_updated_on&gt;&lt;title&gt;Create New Request&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;https://dev208512.service-now.com/abr?id=form&amp;amp;table=x_1346722_rental_0_owner_information&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=385af0fe9366c210ee61f5befaba10b6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1376637640</payload_hash>
+        <record_name>Create New Request</record_name>
+        <reverted_from/>
+        <source>67bdd8d093268a10ee61f5befaba10ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 03:48:18</sys_created_on>
+        <sys_id>f6c8998493320210ee61f5befaba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1900042d5d00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 03:48:18</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>bec89984773202108a99a46144af8faf</update_guid>
+        <update_guid_history>bec89984773202108a99a46144af8faf:-1376637640,22c8dd847a320210e3117ff5f87161ae:1719750972,1842897afda6c21043652706840579f0:628652893,a89cf4728ca6c21098d4396a5458fa86:-462445186,351cb07210a6c21054f8b2bfd9b1c7ea:-1290748464,b05af0fe1966c2100760a2a9c5976fb8:-606388988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New Request">a04b1830937ac210ee61f5befaba104a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 07:14:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>16aca5fa40244a9581e64abb060344b1</sys_id>
+        <sys_metadata>385af0fe9366c210ee61f5befaba10b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Request</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_scope_delete display_value="">952bc903b9344e008c9412082a8ae100</sys_scope_delete>
+        <sys_update_name>sp_instance_link_385af0fe9366c210ee61f5befaba10b6</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_385af0fe9366c210ee61f5befaba10b6">f6c8998493320210ee61f5befaba10b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 07:14:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="all_heating_sources_operational" label="All heating sources operational" language="en" table="x_1346722_rental_0_inspect_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>all_heating_sources_operational</element>
+            <help/>
+            <hint/>
+            <label>All heating sources operational</label>
+            <language>en</language>
+            <name>x_1346722_rental_0_inspect_task</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 04:52:17</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>All heating sources operational</sys_name>
+            <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+            <sys_update_name>sys_documentation_x_1346722_rental_0_inspect_task_all_heating_sources_operational_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 04:52:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

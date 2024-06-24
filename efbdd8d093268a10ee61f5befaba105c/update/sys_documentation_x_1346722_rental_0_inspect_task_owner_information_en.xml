@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="owner_information" label="Owner Information" language="en" table="x_1346722_rental_0_inspect_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>owner_information</element>
+            <help/>
+            <hint/>
+            <label>Owner Information</label>
+            <language>en</language>
+            <name>x_1346722_rental_0_inspect_task</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-30 10:54:56</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Owner Information</sys_name>
+            <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+            <sys_update_name>sys_documentation_x_1346722_rental_0_inspect_task_owner_information_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-30 10:57:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

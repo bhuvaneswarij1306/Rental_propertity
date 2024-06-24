@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Make Fields Readonly</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var status = g_form.getValue("status");
+   var isNew = g_form.isNewRecord();
+   if(status == 'sent_back' || isNew){
+	g_form.setReadOnly('name',false);
+	g_form.setReadOnly('home_address',false);
+	g_form.setReadOnly('mobile_number',false);
+	g_form.setReadOnly('email',false);
+	
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 06:37:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0020fca93a20210ee61f5befaba103f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Make Fields Readonly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sys_script_client_d0020fca93a20210ee61f5befaba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 08:49:41</sys_updated_on>
+        <table>x_1346722_rental_0_owner_information</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sys_script_client_d0020fca93a20210ee61f5befaba103f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Make Fields Readonly&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var status = g_form.getValue("status");
+   var isNew = g_form.isNewRecord();
+   if(status == 'sent_back' || isNew){
+	g_form.setReadOnly('name',false);
+	g_form.setReadOnly('home_address',false);
+	g_form.setReadOnly('mobile_number',false);
+	g_form.setReadOnly('email',false);
+	
+   }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-04 06:37:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d0020fca93a20210ee61f5befaba103f&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Fields Readonly&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Rental Properties System" source="x_1346722_rental_0"&gt;efbdd8d093268a10ee61f5befaba105c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rental Properties System"&gt;efbdd8d093268a10ee61f5befaba105c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d0020fca93a20210ee61f5befaba103f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-04 08:49:41&lt;/sys_updated_on&gt;&lt;table&gt;x_1346722_rental_0_owner_information&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2042950719</payload_hash>
+        <record_name>Make Fields Readonly</record_name>
+        <reverted_from/>
+        <source>67bdd8d093268a10ee61f5befaba10ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 08:49:41</sys_created_on>
+        <sys_id>43346b4693260210ee61f5befaba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fe27099490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 08:49:41</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0b346b4623260210b42f7e9b38234121</update_guid>
+        <update_guid_history>0b346b4623260210b42f7e9b38234121:-2042950719,c2b3af0ad766021064ab907c84e9f718:707764401,6ff16f86c566021059c069747eef8bd0:-2042950719,f8265f46d52602101e4d92825b294a81:707764401,9da4d306302602106a4f3c6b881dd6b6:-154250475,9c849346392602109d6eb8ae5e46b7c1:-535759893,75e50f0220e20210864f7a631a699bfe:1590868675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 09:12:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>47d056d5022c4aaa899ad5d132573b04</sys_id>
+        <sys_metadata>d0020fca93a20210ee61f5befaba103f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Fields Readonly</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_parent display_value="Owner Information">f5de905493268a10ee61f5befaba10d9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_scope_delete display_value="">952bc903b9344e008c9412082a8ae100</sys_scope_delete>
+        <sys_update_name>sys_script_client_d0020fca93a20210ee61f5befaba103f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d0020fca93a20210ee61f5befaba103f">43346b4693260210ee61f5befaba1022</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 09:12:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

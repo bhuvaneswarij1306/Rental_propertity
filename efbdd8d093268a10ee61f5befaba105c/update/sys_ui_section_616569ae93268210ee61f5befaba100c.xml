@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Activities" section_id="616569ae93268210ee61f5befaba100c" sys_domain="global" table="x_1346722_rental_0_owner_information" version="3" view="workspace-rental-properties-system-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 12:52:29</sys_created_on>
+            <sys_id>656569ae93268210ee61f5befaba101a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_1346722_rental_0_owner_information" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">616569ae93268210ee61f5befaba100c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 12:52:29</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Activities</caption>
+            <header>false</header>
+            <name>x_1346722_rental_0_owner_information</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 12:52:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>616569ae93268210ee61f5befaba100c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1346722_rental_0_owner_information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+            <sys_update_name>sys_ui_section_616569ae93268210ee61f5befaba100c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 12:52:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Rental Properties System 0" name="workspace-rental-properties-system-0">bd55a1ae702682109ae37b597b52cdc0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

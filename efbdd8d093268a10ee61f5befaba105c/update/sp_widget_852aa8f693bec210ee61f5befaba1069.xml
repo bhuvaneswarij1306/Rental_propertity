@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* google font  */&#13;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&amp;display=swap');&#13;
+/* google font  */&#13;
+&#13;
+/*&#13;
+  2. Remove default margin&#13;
+*/&#13;
+* {&#13;
+    margin: 0;&#13;
+}&#13;
+&#13;
+/*&#13;
+    3. Allow percentage-based heights in the application&#13;
+  */&#13;
+html,&#13;
+body {&#13;
+    height: 100%;&#13;
+    font-family: 'Poppins', sans-serif;&#13;
+}&#13;
+&#13;
+/*&#13;
+    Typographic tweaks!&#13;
+    4. Add accessible line-height&#13;
+    5. Improve text rendering&#13;
+  */&#13;
+body {&#13;
+    line-height: 1.5;&#13;
+    -webkit-font-smoothing: antialiased;&#13;
+   &#13;
+&#13;
+}&#13;
+&#13;
+/*&#13;
+    6. Improve media defaults&#13;
+  */&#13;
+img,&#13;
+picture,&#13;
+video,&#13;
+canvas,&#13;
+svg {&#13;
+    display: block;&#13;
+    max-width: 100%;&#13;
+}&#13;
+&#13;
+/*&#13;
+    7. Remove built-in form typography styles&#13;
+  */&#13;
+input,&#13;
+button,&#13;
+textarea,&#13;
+select {&#13;
+    font: inherit;&#13;
+}&#13;
+&#13;
+/*&#13;
+    8. Avoid text overflows&#13;
+  */&#13;
+p,&#13;
+h1,&#13;
+h2,&#13;
+h3,&#13;
+h4,&#13;
+h5,&#13;
+h6 {&#13;
+    overflow-wrap: break-word;&#13;
+}&#13;
+&#13;
+li {&#13;
+    list-style: none;&#13;
+}&#13;
+&#13;
+a {&#13;
+    text-decoration: none;&#13;
+    color: inherit;&#13;
+}&#13;
+&#13;
+/* navbar style  */&#13;
+nav {&#13;
+    width: 100%;&#13;
+    max-width: 1980px;&#13;
+    position: absolute;&#13;
+    inset: 0 0 100% 0;&#13;
+&#13;
+}&#13;
+&#13;
+nav .container {&#13;
+    width: 90%;&#13;
+    margin: 0 auto;&#13;
+    min-height: 80px;&#13;
+    background-color: transparent;&#13;
+    display: flex;&#13;
+    justify-content: space-between;&#13;
+    align-items: center;&#13;
+}&#13;
+&#13;
+.logo {&#13;
+    font-weight: 600;&#13;
+    font-size: 1.5rem;&#13;
+    color: #fff;&#13;
+}&#13;
+&#13;
+.nav-list {&#13;
+    flex-basis: 50%;&#13;
+    display: flex;&#13;
+    justify-content: space-between;&#13;
+    align-items: center;&#13;
+}&#13;
+&#13;
+.list-item {&#13;
+    color: #fff;&#13;
+    font-size: 1.2rem;&#13;
+    font-weight: 500;&#13;
+    transition: opacity 300ms ease;&#13;
+}&#13;
+&#13;
+.list-item:hover {&#13;
+    opacity: 0.8;&#13;
+}&#13;
+&#13;
+.contact {&#13;
+    background-color: #505050;&#13;
+    padding: 0.5rem 0.8rem;&#13;
+    border-radius: 5px;&#13;
+}&#13;
+&#13;
+&#13;
+.mobile-menu{&#13;
+    display: none;&#13;
+}&#13;
+/* navbar style  */&#13;
+&#13;
+.header {&#13;
+    width: 100%;&#13;
+    max-width: 1980px;&#13;
+    background-image: url(https://amazingarchitecture.com/storage/1488/responsive-images/moder_house_night_illumination___media_library_original_1344_756.jpg);&#13;
+    height: 100vh;&#13;
+    background-size: cover;&#13;
+    background-position: center;&#13;
+    background-repeat: no-repeat;&#13;
+    z-index: 2;&#13;
+&#13;
+}&#13;
+&#13;
+.header .container {&#13;
+    width: 90%;&#13;
+    margin: 0 auto;&#13;
+    display: flex;&#13;
+    justify-content: space-between;&#13;
+    align-items: center;&#13;
+    height: 100%;&#13;
+}&#13;
+&#13;
+.header-info {&#13;
+    width: 90%;&#13;
+    margin-inline: auto;&#13;
+    display: flex;&#13;
+    justify-content: center;&#13;
+    align-items: center;&#13;
+    flex-direction: column;&#13;
+    height: 100%;&#13;
+    z-index: 2;&#13;
+&#13;
+}&#13;
+&#13;
+.header-headline {&#13;
+    font-size: 6rem;&#13;
+    text-align: center;&#13;
+    font-weight: 900;&#13;
+    line-height: 110%;&#13;
+    text-transform: capitalize;&#13;
+    /*color: white;*/&#13;
+   color : white;&#13;
+    padding-block: 1rem;&#13;
+}&#13;
+&#13;
+.header-subtitle {&#13;
+    /*font-size: 1.5rem;*/&#13;
+    width: 60%;&#13;
+    text-align: center;&#13;
+    /*color: #f1f1f1;*/&#13;
+   color : white;&#13;
+    text-transform: capitalize;&#13;
+  padding-bottom: 2rem;&#13;
+    padding-bottom: 2rem;&#13;
+}&#13;
+&#13;
+.cta {&#13;
+    width: 200px;&#13;
+    background-color: #505050;&#13;
+    color: #fff;&#13;
+    text-align: center;&#13;
+    padding: 0.8rem 1rem;&#13;
+    border-radius: 5px;&#13;
+    font-size: 2rem;&#13;
+}&#13;
+&#13;
+form {&#13;
+    max-width: 1980px;&#13;
+    width: 100%;&#13;
+    margin-top: -50px;&#13;
+}&#13;
+&#13;
+form .container {&#13;
+    width: 80%;&#13;
+    margin-inline: auto;&#13;
+    background-color: #fff;&#13;
+    box-shadow: 0px 5px 10px rgba(80, 80, 80, 0.30);&#13;
+    display: flex;&#13;
+    justify-content: center;&#13;
+    flex-wrap: wrap;&#13;
+    align-items: center;&#13;
+    min-height: 100px;&#13;
+    gap: 2rem;&#13;
+    border-radius: 0.6rem;&#13;
+}&#13;
+&#13;
+.input {&#13;
+    flex-basis: 22%;&#13;
+    background-color: transparent;&#13;
+    height: 100%;&#13;
+    display: flex;&#13;
+    justify-content: center;&#13;
+    align-items: center;&#13;
+    border: 0.3px solid rgba(80, 80, 80, .30);&#13;
+    padding: 0.5rem 0;&#13;
+    border-radius: 5px;&#13;
+}&#13;
+&#13;
+.input input {&#13;
+    outline: 0;&#13;
+    border: 0;&#13;
+    background-color: transparent;&#13;
+    text-transform: uppercase;&#13;
+    font-size: 1rem;&#13;
+&#13;
+}&#13;
+&#13;
+.search {&#13;
+    background-color: #505050;&#13;
+    flex-basis: 15%;&#13;
+    border-radius: 5px;&#13;
+    cursor: pointer;&#13;
+    transition: opacity 300ms;&#13;
+&#13;
+}&#13;
+&#13;
+.search&gt;* {&#13;
+    color: #fff;&#13;
+    text-transform: uppercase;&#13;
+    cursor: pointer;&#13;
+&#13;
+}&#13;
+&#13;
+.search:hover {&#13;
+    opacity: 0.8;&#13;
+}&#13;
+&#13;
+&#13;
+/* product  */&#13;
+#product {&#13;
+    width: 100%;&#13;
+    max-width: 1980px;&#13;
+    padding-block: 4rem;&#13;
+}&#13;
+&#13;
+.product-info {&#13;
+    width: 80%;&#13;
+    margin: 0 auto;&#13;
+    display: flex;&#13;
+    justify-content: space-between;&#13;
+    padding-bottom: 2rem;&#13;
+}&#13;
+&#13;
+.product-info .product-title {&#13;
+    font-size: 3.8rem;&#13;
+    font-weight: 500;&#13;
+    text-transform: capitalize;&#13;
+    color: #505050;&#13;
+    width: 70%;&#13;
+}&#13;
+&#13;
+.product-btn {&#13;
+    background-color: transparent;&#13;
+    color: #505050;&#13;
+    font-size: 1.5rem;&#13;
+    display: flex;&#13;
+    width: 20%;&#13;
+    justify-content: center;&#13;
+    align-items: center;&#13;
+    min-height: 20px;&#13;
+    transition: color 300ms;&#13;
+}&#13;
+&#13;
+.product-btn:hover {&#13;
+    color: #000;&#13;
+}&#13;
+&#13;
+#product .container {&#13;
+    width: 90%;&#13;
+    margin-inline: auto;&#13;
+    display: flex;&#13;
+    justify-content: center;&#13;
+    align-items: center;&#13;
+    flex-wrap: wrap;&#13;
+    gap: 1rem;&#13;
+}&#13;
+&#13;
+.product-card {&#13;
+    flex-basis: 28%;&#13;
+    /* background-color: royalblue; */&#13;
+    border-radius: 10px;&#13;
+    display: flex;&#13;
+    justify-content: center;&#13;
+    align-items: flex-start;&#13;
+    flex-direction: column;&#13;
+    /* border: 0.5px solid rgba(80, 80, 80, 0.30); &#13;
+    box-shadow: 0px 5px 10px rgba(80, 80, 80, 0.20);*/&#13;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);&#13;
+    padding-bottom: 1rem;&#13;
+    overflow: hidden;&#13;
+&#13;
+}&#13;
+&#13;
+.product-card:hover .product-img{&#13;
+    transform: scale(1.035);&#13;
+   object-fit: contain;&#13;
+}&#13;
+&#13;
+.product-img {&#13;
+    flex-basis: 100%;&#13;
+    /*object-fit: cover;*/&#13;
+    object-fit: contain;&#13;
+    transition:  300ms ease;&#13;
+}&#13;
+&#13;
+.card-info {&#13;
+    display: flex;&#13;
+    justify-content: center;&#13;
+    align-items: center;&#13;
+&#13;
+    flex-direction: column;&#13;
+    /* background-color: red; */&#13;
+    width: 100%;&#13;
+    gap: 1rem;&#13;
+  font-size: 2.1rem;&#13;
+    padding-top: 0.5rem;&#13;
+}&#13;
+&#13;
+.card-info-content {&#13;
+    display: flex;&#13;
+    text-transform: uppercase;&#13;
+    min-height: 20px;&#13;
+    justify-self: center;&#13;
+    align-items: center;&#13;
+    gap: 0.5rem;&#13;
+    /* background-color: yellow; */&#13;
+    width: 90%;&#13;
+    margin-inline: auto;&#13;
+&#13;
+}&#13;
+&#13;
+.content {&#13;
+    flex-basis: 30%;&#13;
+    display: flex;&#13;
+    justify-content: start;&#13;
+    min-height: 20px;&#13;
+    align-items: center;&#13;
+}&#13;
+&#13;
+.content p {&#13;
+    font-size: 1.2rem;&#13;
+}&#13;
+&#13;
+.price {&#13;
+    display: flex;&#13;
+    justify-content: space-between;&#13;
+    width: 90%;&#13;
+    margin-inline: auto;&#13;
+&#13;
+    gap: 10px;&#13;
+   font-size: 1.3rem;&#13;
+&#13;
+}&#13;
+&#13;
+.price p {&#13;
+    font-size: 1.5rem;&#13;
+    flex-basis: 30%;&#13;
+&#13;
+}&#13;
+&#13;
+.booking-btn {&#13;
+    color: #fff;&#13;
+    background-color: #505050;&#13;
+    flex-basis: 50%;&#13;
+    padding: 0.5rem 0.5rem;&#13;
+    text-align: center;&#13;
+    font-size: 1rem;&#13;
+    border-radius: 5px;&#13;
+}&#13;
+&#13;
+&#13;
+/* product  */</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Mainpage</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-18 14:01:10</sys_created_on>
+        <sys_id>852aa8f693bec210ee61f5befaba1069</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Mainpage</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sp_widget_852aa8f693bec210ee61f5befaba1069</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-18 17:06:27</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <section class="header">
+        <div class="container">
+            <div class="header-info">
+                <h1 class="header-headline">your perfect home waiting for you </h1>
+                <h3 class="header-subtitle">
+                    we help you get your dream house with us.
+                    We are professional house consultant
+                </h3>
+
+                <a href="" class="cta">Explore Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- header  -->
+
+    <!-- search box
+    <form>
+        <div class="container">
+            <div class="input">
+                <input type="text" placeholder="loaction">
+                <img src="https://cdn.iconscout.com/icon/free/png-512/free-location-1438800-1214139.png?f=webp&w=17" alt="">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="type">
+                <img src="https://cdn.iconscout.com/icon/free/png-512/free-home-house-building-page-city-casa-old-vintage-46266.png?f=webp&w=17" alt="" id="">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="budget">
+                <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/money-710-246038.png?f=webp&w=17" alt="">
+            </div>
+            <div class="input search">
+                <input type="submit" value="search now">
+
+            </div>
+        </div>
+    </form>
+    <!-- search box -->
+
+    <!-- product  -->
+    <section id="product">
+        <div class="product-info">
+            <h2 class="product-title">
+                our Popular Residence
+            </h2>
+
+            <a href="" class="product-btn">
+                Explore All
+                <img src="https://cdn.iconscout.com/icon/free/png-512/free-right-arrow-1442344-1218375.png?f=webp&w=17" alt="">
+            </a>
+        </div>
+        <div class="container">
+            <div class="product-card">
+                <img src="https://wendysrealestate.com/wp-content/uploads/2021/06/bernard-hermant-M0k4llbRpHU-unsplash.png" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="./images/location.svg" alt="">
+                        <p class="loaction-name">jakarta barat indonesia</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-bed-3185464-2685090.png?f=webp&w=17" alt="">
+                            <p>4 Bed</p>
+                        </div>
+                        <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-size-3578486-2990438.png?f=webp&w=17" alt="">
+                            <p>10x10m</p>
+                        </div>
+                        <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-focus-1440400-1216360.png?f=webp&w=17" alt="">
+                            <p>14000M</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$540000</p>
+                        <a href="" class="booking-btn">Book Now</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQox_arfXbNZ-rWvYz-_l-maXAni-BwBEDo0DWD5xP78vBi9OxQ" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="./images/location.svg" alt="">
+                        <p class="loaction-name">jakarta barat indonesia</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-bed-3185464-2685090.png?f=webp&w=17" alt="">
+                            <p>4 Bed</p>
+                        </div>
+                        <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-size-3578486-2990438.png?f=webp&w=17" alt="">
+                            <p>10x10m</p>
+                        </div>
+                        <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-focus-1440400-1216360.png?f=webp&w=17" alt="">
+                            <p>14000M</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$540000</p>
+                        <a href="" class="booking-btn">Book Now</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSifiruo5KyPzGJ_xGzDgMiGBvXSlehTq-r8ofZWqBK6YJg7a1G" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="./images/location.svg" alt="">
+                        <p class="loaction-name">jakarta barat indonesia</p>
+                    </div>
+                    <div class="card-info-content">
+                         <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-bed-3185464-2685090.png?f=webp&w=17" alt="">
+                            <p>4 Bed</p>
+                        </div>
+                        <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-size-3578486-2990438.png?f=webp&w=17" alt="">
+                            <p>10x10m</p>
+                        </div>
+                        <div class="content">
+                            <img src="https://cdn.iconscout.com/icon/free/png-512/free-focus-1440400-1216360.png?f=webp&w=17" alt="">
+                            <p>14000M</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$540000</p>
+                        <a href="" class="booking-btn">Book Now</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product  -->
+</div>]]></template>
+    </sp_widget>
+</record_update>

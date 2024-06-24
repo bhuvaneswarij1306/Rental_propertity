@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Complex Amenities Available" section_id="d38bee4393264610ee61f5befaba107d" sys_domain="global" table="x_1346722_rental_0_owner_information" version="3" view="workspace-rental-properties-system-1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complex_pool</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>138bee4393264610ee61f5befaba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>clubhouse</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>138bee4393264610ee61f5befaba107f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rec_room</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>138bee4393264610ee61f5befaba1083</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exercise_room</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>138bee4393264610ee61f5befaba1081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volleyball</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>138bee4393264610ee61f5befaba1082</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>1b8bee4393264610ee61f5befaba1080</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>spa</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>138bee4393264610ee61f5befaba1085</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>laundry</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>138bee4393264610ee61f5befaba1080</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>playground</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>1b8bee4393264610ee61f5befaba1084</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tennis_court</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>1b8bee4393264610ee61f5befaba107f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>steam_room</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>1b8bee4393264610ee61f5befaba1083</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>1b8bee4393264610ee61f5befaba1081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_amenities</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_id>1b8bee4393264610ee61f5befaba1082</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Complex Amenities Available" display_value="Complex Amenities Available" name="x_1346722_rental_0_owner_information" sys_domain="global" view="a88bea433b264610bfcb0b1a77be2091">d38bee4393264610ee61f5befaba107d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Complex Amenities Available</caption>
+            <header>false</header>
+            <name>x_1346722_rental_0_owner_information</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 07:15:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d38bee4393264610ee61f5befaba107d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1346722_rental_0_owner_information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+            <sys_update_name>sys_ui_section_d38bee4393264610ee61f5befaba107d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 07:15:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Rental Properties System 1" name="workspace-rental-properties-system-1">a88bea433b264610bfcb0b1a77be2091</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

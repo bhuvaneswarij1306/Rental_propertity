@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="b165e5ae93268210ee61f5befaba1095" sys_domain="global" table="x_1346722_rental_0_inspect_task" version="3" view="workspace-rental-properties-system-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 03:04:00</sys_created_on>
+            <sys_id>24e1358393ee0610ee61f5befaba10d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 03:04:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 03:04:00</sys_created_on>
+            <sys_id>2ce1358393ee0610ee61f5befaba10d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 03:04:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 03:04:00</sys_created_on>
+            <sys_id>24e1358393ee0610ee61f5befaba10d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 03:04:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 03:04:00</sys_created_on>
+            <sys_id>2ce1358393ee0610ee61f5befaba10d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 03:04:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 03:04:00</sys_created_on>
+            <sys_id>24e1358393ee0610ee61f5befaba10d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 03:04:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>owner_information</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 03:04:00</sys_created_on>
+            <sys_id>2ce1358393ee0610ee61f5befaba10d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 03:04:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1346722_rental_0_inspect_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-05 12:52:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b165e5ae93268210ee61f5befaba1095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1346722_rental_0_inspect_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+            <sys_update_name>sys_ui_section_b165e5ae93268210ee61f5befaba1095</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-05 12:52:30</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Rental Properties System 0" name="workspace-rental-properties-system-0">bd55a1ae702682109ae37b597b52cdc0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sys_ui_section_b165e5ae93268210ee61f5befaba1095</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="b165e5ae93268210ee61f5befaba1095" sys_domain="global" table="x_1346722_rental_0_inspect_task" version="3" view="workspace-rental-properties-system-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-07 03:04:00</sys_created_on><sys_id>24e1358393ee0610ee61f5befaba10d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-07 03:04:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-07 03:04:00</sys_created_on><sys_id>2ce1358393ee0610ee61f5befaba10d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-07 03:04:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-07 03:04:00</sys_created_on><sys_id>24e1358393ee0610ee61f5befaba10d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-07 03:04:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-07 03:04:00</sys_created_on><sys_id>2ce1358393ee0610ee61f5befaba10d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-07 03:04:00</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-07 03:04:00</sys_created_on><sys_id>24e1358393ee0610ee61f5befaba10d3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-07 03:04:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>owner_information</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-07 03:04:00</sys_created_on><sys_id>2ce1358393ee0610ee61f5befaba10d3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1346722_rental_0_inspect_task" sys_domain="global" view="bd55a1ae702682109ae37b597b52cdc0">b165e5ae93268210ee61f5befaba1095</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-07 03:04:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1346722_rental_0_inspect_task</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-05 12:52:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b165e5ae93268210ee61f5befaba1095</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1346722_rental_0_inspect_task</sys_name><sys_overrides/><sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope><sys_update_name>sys_ui_section_b165e5ae93268210ee61f5befaba1095</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-05 12:52:30</sys_updated_on><sys_user/><title>true</title><view display_value="Workspace Rental Properties System 0" name="workspace-rental-properties-system-0">bd55a1ae702682109ae37b597b52cdc0</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1455465951</payload_hash>
+        <record_name>Inspect Task</record_name>
+        <reverted_from/>
+        <source>67bdd8d093268a10ee61f5befaba10ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 03:04:00</sys_created_on>
+        <sys_id>ace1758393ee0610ee61f5befaba1007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ff0a731e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 03:04:00</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>24e17583aaee061030160c39cad41a07</update_guid>
+        <update_guid_history>24e17583aaee061030160c39cad41a07:1455465951,f16569ae11268210bdcc8acb0421e996:-773472471</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 07:07:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>4e48dab5b57f42a1afe730b9e0efeed9</sys_id>
+        <sys_metadata>b165e5ae93268210ee61f5befaba1095</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1346722_rental_0_inspect_task</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_parent display_value="Inspect Task">8460ed2c93e20210ee61f5befaba10b8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_scope_delete display_value="">952bc903b9344e008c9412082a8ae100</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b165e5ae93268210ee61f5befaba1095</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b165e5ae93268210ee61f5befaba1095">ace1758393ee0610ee61f5befaba1007</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 07:07:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

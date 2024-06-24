@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Send To Review Team">3cf17d4393ee0610ee61f5befaba103d</action>
+        <active>true</active>
+        <color>primary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Send To Review Team</label>
+        <layout_group/>
+        <name>Send To Review Team</name>
+        <order>100</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 03:04:17</sys_created_on>
+        <sys_id>3cf1f58393ee0610ee61f5befaba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send To Review Team</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_3cf1f58393ee0610ee61f5befaba1037</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 03:04:17</sys_updated_on>
+        <table>x_1346722_rental_0_inspect_task</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

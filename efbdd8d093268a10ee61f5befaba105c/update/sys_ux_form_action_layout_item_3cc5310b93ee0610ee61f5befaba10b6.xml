@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Reject">38c5f9c793ee0610ee61f5befaba101d</action>
+        <active>true</active>
+        <color>primary-negative</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Reject</label>
+        <layout_group/>
+        <name>Reject</name>
+        <order>100</order>
+        <overflow>true</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 03:20:57</sys_created_on>
+        <sys_id>3cc5310b93ee0610ee61f5befaba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1346722_rental_0">efbdd8d093268a10ee61f5befaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">efbdd8d093268a10ee61f5befaba105c</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_3cc5310b93ee0610ee61f5befaba10b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 03:20:57</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_ux_form_action_layout_item>
+</record_update>
